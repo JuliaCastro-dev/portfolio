@@ -1,12 +1,5 @@
-import { 
-    Box
-  } from '@chakra-ui/react'
-  import { keyframes } from '@emotion/react'
-
-const float = keyframes`
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-20px) rotate(180deg); }
-`
+import { Box } from '@chakra-ui/react'
+import { keyframes } from '@emotion/react'
 
 const gradient = keyframes`
   0%, 100% { background-position: 0% 50%; }
