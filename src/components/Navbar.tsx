@@ -1,4 +1,4 @@
-import { Box, Flex, Link, Button, useColorModeValue } from '@chakra-ui/react'
+import { Box, Flex, Link, useColorModeValue } from '@chakra-ui/react'
 import { Link as RouterLink } from 'react-router-dom'
 
 const Navbar = () => {

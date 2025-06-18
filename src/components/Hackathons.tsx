@@ -1,5 +1,5 @@
-import { Box, Heading, Text, Stack, Badge, Image, Flex, Container, HStack, Icon, SimpleGrid, VStack } from '@chakra-ui/react'
-import { Github, ExternalLink, Trophy, Code, User, Mail } from 'lucide-react'
+import { Box, Heading, Text, Badge, Image, Container, HStack, Icon, SimpleGrid, VStack } from '@chakra-ui/react'
+import { Trophy } from 'lucide-react'
 
 const hackathons = [
   {

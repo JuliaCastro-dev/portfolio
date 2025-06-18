@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Image, Link, Button, Flex, useBreakpointValue, Code, Container, HStack, Icon, VStack } from '@chakra-ui/react'
+import { Box, Heading, Text, Image, Link, Button, Flex, useBreakpointValue, Container, HStack, Icon, VStack } from '@chakra-ui/react'
 import { Github, ExternalLink ,Sparkles} from 'lucide-react'
 import { useState } from 'react'
 
@@ -34,7 +34,6 @@ const ProjectsCarousel = () => {
   const next = () => setIndex((i) => (i === projects.length - 1 ? 0 : i + 1))
 
   const visibleProjects = getVisibleProjects()
-  const cardsPerView = useBreakpointValue({ base: 1, md: 2, lg: 3 }) || 3
   
   return (
     <Box id="projetos" py={20} w="100%">

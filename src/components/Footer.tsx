@@ -1,4 +1,4 @@
-import { Box, Text, Link, Flex, Container, HStack, Icon, VStack } from '@chakra-ui/react'
+import { Box, Text, Link, Container, HStack, Icon, VStack } from '@chakra-ui/react'
 import { Github, Mail, Linkedin, Instagram, Heart, Sparkles } from 'lucide-react'
 
 const Footer = () => (

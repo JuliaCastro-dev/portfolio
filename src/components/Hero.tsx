@@ -1,5 +1,5 @@
-import { Box, Heading, Text, Button, Stack, Avatar, Badge, Container, HStack, VStack, Wrap, WrapItem, useBreakpointValue } from '@chakra-ui/react'
-import { Github, ExternalLink, Trophy, Code, User, Mail, Palette, Heart, Sparkles } from 'lucide-react'
+import { Box, Heading, Text, Button, Avatar, Badge, Container, HStack, VStack, Wrap, WrapItem, useBreakpointValue } from '@chakra-ui/react'
+import { Code, User, Palette, Heart, Sparkles } from 'lucide-react'
 import { keyframes } from '@emotion/react'
 
 const pulse = keyframes`
