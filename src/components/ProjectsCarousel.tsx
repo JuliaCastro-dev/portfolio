@@ -1,5 +1,5 @@
 import { Box, Heading, Text, Image, Link, Button, Flex, useBreakpointValue, Code, Container, HStack, Icon, VStack } from '@chakra-ui/react'
-import { Github, ExternalLink } from 'lucide-react'
+import { Github, ExternalLink ,Sparkles} from 'lucide-react'
 import { useState } from 'react'
 
 const ProjectsCarousel = () => {
@@ -42,7 +42,7 @@ const ProjectsCarousel = () => {
         <VStack spacing={12}>
           <VStack spacing={4} textAlign="center">
             <HStack>
-              <Icon as={Code} color="cyan.400" w={8} h={8} />
+              <Icon as={Sparkles} color="#FF69B4" w={8} h={8} />
               <Heading
                 size="xl"
                 bgGradient="linear(to-r, cyan.400, purple.400)"

@@ -1,4 +1,4 @@
-import { Button, Box, Text, HStack } from '@chakra-ui/react'
+import { Button, Box, Text, HStack, useBreakpointValue } from '@chakra-ui/react'
 import { MessageCircle } from 'lucide-react'
 import { keyframes } from '@emotion/react'
 
@@ -14,6 +14,8 @@ const rainbowGlow = keyframes`
 `
 
 const ContactButton = () => {
+  const isMobile = useBreakpointValue({ base: true, md: false })
+  
   const handleWhatsAppClick = () => {
     // IMPORTANTE: Substitua pelo seu número real do WhatsApp (formato: 5511999999999)
     const phoneNumber = '5511999999999' 
@@ -23,15 +25,20 @@ const ContactButton = () => {
   }
 
   return (
-    <Box position="fixed" bottom={6} right={6} zIndex={1000}>
+    <Box 
+      position="fixed" 
+      bottom={{ base: 4, md: 6 }} 
+      right={{ base: 4, md: 6 }} 
+      zIndex={1000}
+    >
       <Button
         onClick={handleWhatsAppClick}
-        size="lg"
+        size={{ base: "md", md: "lg" }}
         bg="linear-gradient(45deg, #25D366, #128C7E)"
         color="white"
         borderRadius="full"
-        px={6}
-        py={4}
+        px={{ base: 4, md: 6 }}
+        py={{ base: 3, md: 4 }}
         _hover={{
           transform: "translateY(-3px) scale(1.05)",
           animation: `${rainbowGlow} 3s ease-in-out infinite`,
@@ -41,10 +48,12 @@ const ContactButton = () => {
         }}
         transition="all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
         boxShadow="0 10px 30px rgba(37, 211, 102, 0.3)"
-        leftIcon={<MessageCircle size={24} />}
+        leftIcon={<MessageCircle size={isMobile ? 20 : 24} />}
       >
-        <HStack spacing={2}>
-          <Text fontWeight="bold">Vamos conversar?</Text>
+        <HStack spacing={{ base: 1, md: 2 }}>
+          <Text fontWeight="bold" fontSize={{ base: "sm", md: "md" }}>
+            {isMobile ? "Conversar" : "Vamos conversar?"}
+          </Text>
         </HStack>
       </Button>
     </Box>
