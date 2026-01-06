@@ -1,5 +1,5 @@
-import { Box, Heading, Text, Image, Link, Button, Flex, useBreakpointValue, Container, HStack, Icon, VStack } from '@chakra-ui/react'
-import { Github, ExternalLink ,Sparkles} from 'lucide-react'
+import { Box, Heading, Text, Image, Link, Button, Flex, useBreakpointValue, Container, HStack, VStack } from '@chakra-ui/react'
+import { Github, ExternalLink} from 'lucide-react'
 import { useState } from 'react'
 
 const ProjectsCarousel = () => {

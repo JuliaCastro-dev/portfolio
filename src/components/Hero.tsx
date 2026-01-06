@@ -1,8 +1,8 @@
-import { Box, Heading, Text, Button, Avatar, Badge, Container, HStack, VStack, Wrap, WrapItem, useBreakpointValue } from '@chakra-ui/react'
+import { Box, Heading, Text, Button, Badge, Container, HStack, VStack, Wrap, WrapItem, useBreakpointValue } from '@chakra-ui/react'
 import { Code, User, Palette, Heart, Sparkles } from 'lucide-react'
 import { keyframes } from '@emotion/react'
 
-const pulse = keyframes`
+/* const pulse = keyframes`
   0%, 100% { opacity: 0.4; transform: scale(1); }
   50% { opacity: 0.8; transform: scale(1.1); }
 `
@@ -10,7 +10,7 @@ const pulse = keyframes`
 const rainbowRotate = keyframes`
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-`
+` */
 
 const float = keyframes`
   0%, 100% { transform: translateY(0px); }

@@ -1,5 +1,5 @@
 import { Box, Heading, Text, Container, Divider, HStack, Icon, VStack, SimpleGrid } from '@chakra-ui/react'
-import { Heart, TargetIcon, Sparkles, Code, Award, Notebook } from 'lucide-react'
+import { Heart, TargetIcon, Code, Award, Notebook } from 'lucide-react'
 
 const About = () => (
   <Box id="sobre" py={20} position="relative" overflow="hidden">
