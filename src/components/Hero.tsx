@@ -38,7 +38,7 @@ const Hero = () => {
             <Box position="relative" display={'flex'} alignItems={'end'} >
               <Box
                 as="img"
-                src="src/assets/profilebg.png"
+                src="/profilebg.png"
                 borderColor="transparent"
                 backgroundClip="padding-box"
                 animation={`${float} 3s ease-in-out infinite`}

@@ -8,7 +8,7 @@ const hackathons = [
     desc: 'Pela terceira vez no 1º lugar 🏆 do hackathon NEXT, apresentamos uma solução de impacto social para a B3. BetInvest, uma plataforma que traz toda a dopamina dos jogos de apostas e a segurança do investimento.',
     year: '2025',
     position: '1º Lugar',
-    image: 'src/assets/h3.jpg'
+    image: '/h3.jpg'
   },
   {
     title: '1º Lugar - NEXT FIAP 2024: Desafio Rede Âncora',
