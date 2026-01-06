@@ -75,12 +75,6 @@ const Footer = () => (
         <Sparkles size={16} style={{ marginRight: '8px', color: '#FFD700' }} />
         © 2024 Julia Castro. Feito com 
         <Heart size={16} style={{ margin: '0 4px', color: '#FF69B4' }} />
-        e muito código artístico ✨
-        <Sparkles size={16} style={{ marginLeft: '8px', color: '#FFD700' }} />
-      </Text>
-      
-      <Text color="gray.600" fontSize="xs" textAlign="center">
-        Celebrando diversidade, criatividade e inovação
       </Text>
     </VStack>
   </Container>

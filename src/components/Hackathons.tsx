@@ -3,6 +3,14 @@ import { Trophy } from 'lucide-react'
 
 const hackathons = [
   {
+    title: '1º Lugar - NEXT FIAP 2025: Desafio B3',
+    org: 'Promovido pela FIAP em parceria com a Rede Âncora',
+    desc: 'Pela terceira vez no 1º lugar 🏆 do hackathon NEXT, apresentamos uma solução de impacto social para a B3. BetInvest, uma plataforma que traz toda a dopamina dos jogos de apostas e a segurança do investimento.',
+    year: '2025',
+    position: '1º Lugar',
+    image: 'src/assets/h3.jpg'
+  },
+  {
     title: '1º Lugar - NEXT FIAP 2024: Desafio Rede Âncora',
     org: 'Promovido pela FIAP em parceria com a Rede Âncora',
     desc: 'Pela segunda vez no 1º lugar 🏆 do hackathon NEXT, apresentamos uma solução para gestão de eventos online: The Gather! criada para gerar impacto e facilitar conexões.',
@@ -21,7 +29,7 @@ const hackathons = [
 ]
 
 const Hackathons = () => (
-  <Box id="hackathons" py={20}>
+  <Box id="hackathons" py={15}>
     <Container maxW="1200px">
       <VStack spacing={12}>
         <VStack spacing={4} textAlign="center">
@@ -40,7 +48,7 @@ const Hackathons = () => (
           </Text>
         </VStack>
 
-        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8} w="100%">
+        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8} w="100%" alignItems={'end'}>
           {hackathons.map((hackathon, index) => (
             <Box
               key={index}

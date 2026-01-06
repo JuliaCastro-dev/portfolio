@@ -41,7 +41,7 @@ export const theme = extendTheme({
     styles: {
       global: {
         body: {
-          bg: 'linear-gradient(135deg, #0f0f23 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #533483 100%)',
+          bg: 'linear-gradient(135deg, #0f0f23 0%, #1a1a2e 25%, #16213e 50%, #0f0f23 75%, #1a1a2e 100%)',
           backgroundAttachment: 'fixed',
         }
       }
